@@ -21,7 +21,7 @@ app.get("/api/classify-number", async (req, res) => {
       number,
       error: true,
     });
-  }
+  };
 
   const num = parseInt(number);
   const isOdd = num % 2 !== 0;
@@ -51,7 +51,7 @@ app.get("/api/classify-number", async (req, res) => {
 
   res.json({
     number: num,
-    is_prime: false, // No need for prime/perfect checks per spec
+    is_prime: false, 
     is_perfect: false,
     properties,
     digit_sum: digitSum,
