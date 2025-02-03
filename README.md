@@ -29,7 +29,10 @@ This is a simple public API that classifies numbers and provides a math fun fact
 } 
 
 ```
+##
 
+
+``` shell
 git clone https://github.com/theNubiadev/number-classifier.git
 
 cd number-classifier
@@ -42,3 +45,11 @@ node index.js
 
 http://localhost:3000/api/classify-number?number=7
 
+```
+
+
+### Deployment
+This API is deployed at:  
+
+### More Node.js Developers
+Looking to hire  👉 [[Node.js Developers](https://hng.tech/hire/nodejs-developers)]
